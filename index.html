@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>About Me</title>
+</head>
+
+<body>
+
+    <h3>About Me</h3>
+    <nav class="site-nav">
+        <ul class="group">
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#photo">Photo Galleries</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+    </nav>
+    <div class="aboutme" id="aboutme">
+        <h2>About Me</h2>
+        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, perferendis facere. Delectus natus
+            voluptatem vero quos dolor. Nemo dolorem aliquam quae nobis, perspiciatis aliquid aperiam voluptatem quia,
+            sint maiores asperiores deleniti perferendis, quibusdam ratione magnam minima repellat quidem nihil
+            assumenda?
+        </h3>
+        <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, tempore. Perferendis itaque maiores,
+            veritatis sed reprehenderit laudantium consectetur id, numquam mollitia hic facilis rem? Voluptatibus aut
+            alias sapiente consectetur amet sint necessitatibus dolore! Fugit dolores, perferendis necessitatibus sequi
+            molestias reiciendis maxime porro ea in ducimus? Quos corporis corrupti dicta sapiente?
+        </h3>
+    </div>
+
+    <div id="photo" class="photo">
+        <h3>Image Galleries</h3>
+        <img src="image/dragon.png" alt="Dragon Back">
+        <img src="image/lamma.jpeg" alt="Lamma Island">
+        <img src="image/thepeak.jpeg" alt="the peak">
+        <img src="image/twinpeak.jpeg" alt="Violet Hill and Twin Peak">
+    </div>
+
+
+    <div class="contact-me" id="contact-me">
+        <form action="https://formspree.io/f/xayknzgy" method="POST">
+            <fieldset>
+                <h4>Contact Me</h4>
+                <label for="fname">First Name:</label><br />
+                <input type="text" id="fname" name="fname" placeholder="your first Name"><br />
+
+                <label for="lname">Last Name:</label><br />
+                <input type="text" id="lname" name="lname" placeholder="your Last Name"><br />
+
+                <label for="email">Email address:</label><br />
+                <input type="email" id="email" name="email" placeholder="email address"><br />
+
+                <label for="comments">Comments</label><br />
+                <textarea rows="5" cols="30" id="comments" name="comments" placeholder="your comments"></textarea><br />
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

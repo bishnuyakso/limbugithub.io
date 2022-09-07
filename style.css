@@ -1,0 +1,65 @@
+body {
+    background-color: #f6f4e8;
+}
+
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav a {
+    display: block;
+    text-decoration: none;
+    color: #1d3124;
+    padding: 5px 30px;
+    margin: auto;
+    border: 3px solid #e5e9dc;
+    border-radius: 10px;
+}
+
+li a:hover {
+    background-color: #bacec1;
+    color: #e59560;
+}
+
+.contact-me {
+    position: relative;
+    height: 150px;
+    width: 350px;
+    margin: 50px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    position: relative;
+    margin: 10px 10px;
+    width: 300px;
+    height: 300px;
+    float: center;
+    border-radius: 10px;
+}
+
+.aboutme {
+    margin: 10px 10px;
+    font-size: 15px;
+    position: relative;
+    margin: 80px;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
